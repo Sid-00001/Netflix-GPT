@@ -38,7 +38,7 @@ const Login = () => {
         await updateProfile(user, {  
           displayName: name.current.value,
           photoURL: "https://example.com/jane-q-user/profile.jpg",
-        });
+        });v
 
         // Dispatch user to Redux store
         dispatch(
